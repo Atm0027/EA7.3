@@ -1,0 +1,22 @@
+{
+  "name": "pokedex-api",
+  "version": "1.0.0",
+  "description": "API de Pokédex con TS y Express",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc && node dist/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mysql2": "^3.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.19.11",
+    "typescript": "^5.9.3"
+  }
+}
